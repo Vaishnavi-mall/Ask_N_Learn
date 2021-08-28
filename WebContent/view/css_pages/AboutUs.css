@@ -1,0 +1,161 @@
+@charset "ISO-8859-1";
+body
+{
+background-color:#34495e;
+color:white
+line-height:1em;
+margin:5px;
+margin-top:-25px;
+margin-bottom:5px;
+margin-right:-5px;
+margin-left:-5px;
+padding-top:5px;
+padding-bottom:5px;
+padding-right:5px;
+padding-left:5px;
+
+<!__background-image:linear-gradient(180deg,#ccfcdf,#ffffff);__>
+
+}
+.navbar
+{
+	height:95px;
+	background:black;
+	padding:5px;
+	border:2px solid #2ecc71;
+		}
+.butsty
+{
+	border:2px solid #2ecc71;
+	border-radius:40px;
+	padding:17px;
+	background:black;
+	color:#34495e;
+	margin-right:10px;
+	margin-top:-92px;
+	margin-bottom:250px;
+	margin-left:10px;
+	float:right;
+	font-size: 18px;
+}
+.search
+{
+	background:black;
+	height:40px;
+	width:300px;
+	border-radius:50px;
+	padding:12px;
+	margin-left:400px;
+	margin-right:200px;
+	margin-top:-55px;
+	margin-bottom:10px;
+	transform:translate(-50%,-50%);
+	height:30px;
+	border:2px solid #2ecc71;
+	
+	
+}
+.inbox
+{
+	border:none;
+	outline:none;
+	background:none;
+	float:right;
+	color:#fff;
+	padding:0;
+	margin-left:200px;
+	margin-right:-110px;
+	font-size:16px;
+	transition:0.4s all;
+	Line-height:29.9px;
+	width:400px;
+}
+p{
+line-height:1em;
+font-size:25px;
+color:white;
+font-family:Plantagenet Cherokee;
+}
+
+.underline
+{
+
+line-height:1.5em;
+background-color:#2ecc71;
+border-bottom:2px ;
+font-size:50px;
+font-family:TIMES NEW ROMAN;
+font-weight:lighter;
+color:black;
+
+}
+.para{
+
+font-size:15px;
+font-family:TIMES NEW ROMAN;
+font-weight:lighter;
+color:white;
+}
+.f
+{
+line-height:1.5em;
+font-size:15px;
+font-family:TIMES NEW ROMAN;
+font-weight:lighter;
+color:white;
+}
+
+.box
+{
+position:relative;
+width: 1000px;
+height:300px;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#191919;
+}
+.box:before
+{
+content:'';
+position:absolute;
+top: -2px;
+left: -2px;
+right: -2px;
+bottom: -2px;
+background:#191919;
+z-index:-1;
+}
+.box:after
+{
+content:'';
+position:absolute;
+top: -2px;
+left:-2px;
+right: -2px;
+bottom: -2px;
+background:#191919;
+z-index:-2;
+filter:blur(40px);
+}
+.box:before,
+.box:after
+{
+background:linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+}
+.content{
+padding:20px;
+box-sizing:border-box;
+color:#fff;
+
+}
+p1{
+margin:30;
+padding:50;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+background:black;
+font-family:"poppins";
+}
